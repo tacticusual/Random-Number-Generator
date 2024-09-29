@@ -1,0 +1,9 @@
+import random
+
+def generate_random_number(start, end):
+    return random.randint(start, end)
+
+if __name__ == "__main__":
+    start = int(input("Enter start number: "))
+    end = int(input("Enter end number: "))
+    print(f"Random number: {generate_random_number(start, end)}")
